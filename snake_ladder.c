@@ -14,6 +14,7 @@
 #include <unistd.h>
 #include <time.h>
 
+/*Macros*/
 #define INFINITE 1
 #define GAME_LIMIT 100
 #define GAME_INIT 0
