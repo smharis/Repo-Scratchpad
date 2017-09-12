@@ -1,3 +1,4 @@
+/*SNAKE LADER GAME by smharis-GITHUB*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdlib.h>
