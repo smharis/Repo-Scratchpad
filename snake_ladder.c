@@ -43,6 +43,15 @@ randr(unsigned int min, unsigned int max)
        return (max - min +1)*scaled + min;
 }
 
+/*
+ **************************************************
+ * Customised API 2 to generate a random number   *
+ * between 1 to 6. It is being called when user   *
+ * has to throw the dice.                         *
+ * We’ll be using this API to get better sets of  *
+ * random numbers.                                *
+ **************************************************                        
+ */
 int random_number(int min_num, int max_num)
 {
     int result = 0, low_num = 0, hi_num = 0;
@@ -209,8 +218,8 @@ main (void) {
       break;
     }
 
-   printf ("Get ready for next turn .........\n");
-   sleep (1);
+   printf ("Get ready for next turn in 10 secs.........\n");
+   sleep (10);
    clrscr();
 
   }/*End of infinite loop*/
