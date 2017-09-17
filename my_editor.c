@@ -6,8 +6,9 @@
 #define INSERT 1
 #define DELETE 2
 #define UPDATE 3
-#deine  PRINT  4
-/*Struct to maintain stack framework*/
+#define PRINT  4
+
+/*Structure to maintain stack framework*/
 typedef struct stack {
     struct stack *next;
     
